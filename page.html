@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>   
+    <section id="section2">
+        <h1>글 작성</h1>
+        제목 <input type="text" class="newTitle">
+        작성자 <input type="text" class="newUser">
+        작성 일자 <input type='date' class='newDate'>
+        <div id="in_content">
+            <textarea name="content" class="newContent" placeholder="내용" required></textarea>
+        </div>
+        <button id="btnAdd" onclick="addList()">작성 완료</button>
+    </section> 
+</body>
+</html>

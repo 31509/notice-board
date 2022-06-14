@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <section id="section">
+        <h1>게시판</h1>
+        <template>
+            <tr>
+                <td></td>
+                <td><a href="page.html"></a></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </template>
+        <hr>
+        <form>
+            <table class="notice-board">
+                <thead>
+                    <tr>
+                        <td class="id">번호</td>
+                        <td class="title">제목</td>
+                        <td class="writer-id">작성자</td>
+                        <td class="reg-date">작성 일자</td>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <input type="button" class="add-button" value="글 쓰기" onclick="location.href='page.html'" />                
+            <input type="button" class="del-button" value="삭제" />
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,36 @@
+* {
+    margin: 10;
+    padding: 0;
+}
+table, tr, td {
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+textarea {
+    width: 50%;
+    height: 6.25em;
+    border: 1px solid black;
+    resize: none;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+table, tr, th, td {
+    text-align: center;
+}
+
+th, td {
+    padding: 7px;
+}
